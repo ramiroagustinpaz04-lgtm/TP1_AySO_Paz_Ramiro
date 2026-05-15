@@ -1,0 +1,69 @@
+ssh-keygen -t ed25519
+ls
+ls -la
+cd .ssh
+ls
+cat id_ed25519.pub
+cd 
+ls
+cd repogit
+git clone git@github.com:ramiroagustinpaz04-lgtm/TP1_AySO_Paz_Ramiro.git 
+ls 
+git clone git@github.com:ramiroagustinpaz04-lgtm/TP1_AySO_Paz_Ramiro.git 
+cat /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+cd TP1_Ayso_Paz_Ramiro
+ls
+cd TP1_AySO_Paz_Ramiro  
+mv ../datos_usuario.txt .
+git add .
+git commit -m "ADD: agregado 1er ejercio sobre datos_usuario.txt"
+git config --global user.email "ramiroagustinpaz04@gmail.com"
+git config --global user.name "ramiroagustinpaz04-lgtm" 
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git push
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add .
+git commit -m "feat:  añadiendo informacion de CPU" 
+git push
+cat <<EOF >> README.md
+
+Alumno: Ramiro Agustin Paz
+
+División: 114
+Turno: Mañana
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo readme y datos de usuario"
+git push
+cd ~
+mkdir -p {material,materia2}/uni{1,2,3}
+tree material materia2~
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_Paz_Ramiro/
+ls -l
+tree
+sudo apt install tree
+tree
+cd
+mkdir -p {material,materia2} /uni{1,2,3}
+mkdir -p {material,materia2}/uni{1,2,3}
+ls -r material materia2
+sudo apt update && sudo apt install -y tree
+tree
+tree -d
+cd -
+dir -p {material,material2}/uni{1,2,3}
+tree
+cd -
+mkdir -p materia2/uni{1,2,3}
+ls -f
+cd repogit/TP1_AySO_Paz_Ramiro/
+history -a
